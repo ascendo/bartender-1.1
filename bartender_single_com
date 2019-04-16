@@ -126,7 +126,7 @@ def driver():
     if seed_len < step:
         print ("The default or specified step is larger than the seed length, reset the step be the seed length!")
         step = seed_len
-    os.system('bartender_single ' + inputfile + ' ' + outprefix + ' ' + str(freq_cutoff) + ' ' + str(zvalue) + ' ' + str(seed_len) + ' ' + str(step) + ' ' + str(num_threads) + ' ' + str(distance) + ' ' + str(strand_direction))
+    os.system('~/bartender-1.1/bartender_single ' + inputfile + ' ' + outprefix + ' ' + str(freq_cutoff) + ' ' + str(zvalue) + ' ' + str(seed_len) + ' ' + str(step) + ' ' + str(num_threads) + ' ' + str(distance) + ' ' + str(strand_direction))
 if __name__=="__main__":
     print('Running bartender')
     driver()
