@@ -55,7 +55,7 @@ def driver():
         print(usage())
         sys.exit(0)
 
-    os.system('bartender_combiner ' + str(freq_cutoff) + ' ' + outprefix + ' ' + inputfile)
+    os.system('~/bartender-1.1/bartender_combiner ' + str(freq_cutoff) + ' ' + outprefix + ' ' + inputfile)
 if __name__=="__main__":
     print('Running bartender_combiner')
     driver()
